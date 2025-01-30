@@ -6,7 +6,7 @@ import torch
 from pathlib import Path
 
 # Load the YOLOv5 model with the specified path
-model = torch.hub.load('ultralytics/yolov5', 'custom', path=r'D:\Applications\Coding\Projects\best.pt')  # Specify full path to best.pt
+model = torch.hub.load('ultralytics/yolov5', 'custom', path=r'C:\Users\carla\Desktop\bambooImageProcessing\yolov5\runs\train\exp5\weights\best.pt')  # Specify full path to best.pt
 
 # Global variables to store selected image path and processed image
 selected_image_path = None
