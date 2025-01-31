@@ -1,0 +1,10 @@
+dataset can be found/copied here:
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="wFLSPC46dkyKk2ajWVGt")
+project = rf.workspace("bamboo-v2").project("growthhabitclassification")
+version = project.version(2)
+dataset = version.download("folder")
+                
